@@ -1,9 +1,13 @@
-# Gatsby.js MDX Blog Starter Project
+# gatsby-starter-carbon
+[Gatsby.js](https://www.gatsbyjs.org/) starter with the [Carbon Design System](http://carbondesignsystem.com).
 
-A starter project in [Gatsby.js](https://www.gatsbyjs.org/) with [MDX](https://github.com/mdx-js/mdx).
+
+## License
+MIT
 
 ## Features
 
+* Carbon Design System styles
 * MDX: JavaScript/React in Markdown
   * see */mdx-example* blog post
 * Prism.js: Syntax Highlighting
@@ -13,16 +17,16 @@ A starter project in [Gatsby.js](https://www.gatsbyjs.org/) with [MDX](https://g
 
 ## Setup
 
-* `git clone git@github.com:rwieruch/gatsby-mdx-blog-starter-project.git`
-* `cd gatsby-mdx-blog-starter-project`
+* `git clone git@github.com:ibm-frontend/gatsby-carbon-starter.git`
+* `cd gatsby-carbon-starter`
 * `npm install`
 * `gatsby develop`
 * visit http://localhost:8000
 
 ## Setup via Gatsby CLI
 
-* `gatsby new gatsby-mdx-blog-starter-project git@github.com:rwieruch/gatsby-mdx-blog-starter-project.git`
-* `cd gatsby-mdx-blog-starter-project`
+* `gatsby new gatsby-carbon-starter git@github.com:ibm-frontend/gatsby-carbon-starter.git`
+* `cd gatsby-carbon-starter`
 * `npm install`
 * `gatsby develop`
 * visit http://localhost:8000
