@@ -20,7 +20,7 @@ MIT
 * `git clone git@github.com:ibm-frontend/gatsby-carbon-starter.git`
 * `cd gatsby-carbon-starter`
 * `npm install`
-* `gatsby develop`
+* `npm run develop`
 * visit http://localhost:8000
 
 ## Setup via Gatsby CLI
