@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-mdx-blog-starter-project",
-  "description": "Gatsby MDX Blog Starter Project",
+  "name": "gatsby-carbon-starter",
+  "description": "Gatsby Carbon Starter",
   "version": "1.0.0",
-  "author": "Robin Wieruch <hello@rwieruch.com> (https://www.robinwieruch.de/)",
-  "repository": "https://github.com/rwieruch/gatsby-mdx-starter-project",
+  "author": "IBM Frontend <frontend@us.ibm.com>)",
+  "repository": "https://github.com/ibm-frontend/gatsby-carbon-starter",
   "dependencies": {
     "@mdx-js/mdx": "^0.15.3",
     "@mdx-js/tag": "^0.15.0",
@@ -16,7 +16,7 @@
     "gatsby-plugin-manifest": "^2.0.2",
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
-    "gatsby-plugin-sharp": "^2.0.5",
+    "gatsby-plugin-sharp": "^2.0.7",
     "gatsby-plugin-styled-components": "^3.0.0",
     "gatsby-remark-copy-linked-files": "^2.0.5",
     "gatsby-remark-images": "^2.0.1",
