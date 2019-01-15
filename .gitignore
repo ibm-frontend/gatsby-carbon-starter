@@ -1,3 +1,6 @@
+# Build assets
+public/ 
+
 # Logs
 logs
 *.log

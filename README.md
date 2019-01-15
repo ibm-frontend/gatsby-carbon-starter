@@ -30,6 +30,3 @@ MIT
 * `npm install`
 * `gatsby develop`
 * visit http://localhost:8000
-
-## Credit
-* Forked from https://github.com/rwieruch/gatsby-mdx-starter-project

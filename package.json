@@ -1,46 +1,40 @@
 {
-  "name": "gatsby-carbon-starter",
-  "description": "Gatsby Carbon Starter",
-  "version": "1.0.0",
-  "author": "IBM Frontend <frontend@us.ibm.com>)",
-  "repository": "https://github.com/ibm-frontend/gatsby-carbon-starter",
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby and Carbon",
+  "version": "0.1.0",
+  "author": "Vince Picone",
   "dependencies": {
-    "@mdx-js/mdx": "^0.15.3",
-    "@mdx-js/tag": "^0.15.0",
-    "core-js": "^2.5.7",
-    "gatsby": "^2.0.7",
-    "gatsby-image": "^2.0.8",
-    "gatsby-link": "^2.0.1",
-    "gatsby-mdx": "^0.1.4",
-    "gatsby-plugin-catch-links": "^2.0.2",
-    "gatsby-plugin-manifest": "^2.0.2",
-    "gatsby-plugin-offline": "^2.0.5",
-    "gatsby-plugin-react-helmet": "^3.0.0",
-    "gatsby-plugin-sharp": "^2.0.7",
-    "gatsby-plugin-styled-components": "^3.0.0",
-    "gatsby-remark-copy-linked-files": "^2.0.5",
-    "gatsby-remark-images": "^2.0.1",
-    "gatsby-remark-prismjs": "^3.0.0",
-    "gatsby-source-filesystem": "^2.0.1",
-    "gatsby-transformer-remark": "^2.1.3",
-    "gatsby-transformer-sharp": "^2.1.1",
-    "prismjs": "^1.15.0",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "react-helmet": "~5.2.0",
-    "styled-components": "^3.4.9"
-  },
-  "devDependencies": {
-    "babel-plugin-styled-components": "^1.7.1",
-    "prettier": "1.14.3"
+    "@carbon/themes": "0.0.1-alpha.27",
+    "carbon-components": "^9.66.3",
+    "carbon-components-react": "^6.74.0",
+    "gatsby": "^2.0.76",
+    "gatsby-image": "^2.0.20",
+    "gatsby-plugin-manifest": "^2.0.9",
+    "gatsby-plugin-offline": "^2.0.16",
+    "gatsby-plugin-react-helmet": "^3.0.2",
+    "gatsby-plugin-sass": "^2.0.7",
+    "gatsby-plugin-sharp": "^2.0.14",
+    "gatsby-source-filesystem": "^2.0.8",
+    "gatsby-transformer-sharp": "^2.1.8",
+    "node-sass": "^4.11.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-helmet": "^5.2.0"
   },
   "keywords": [
     "gatsby"
   ],
   "license": "MIT",
-  "main": "n/a",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop"
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "format": "prettier --write \"src/**/*.js\"",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "devDependencies": {
+    "prettier": "^1.15.2"
   }
 }
