@@ -1,0 +1,49 @@
+@import '~@carbon/colors/scss/colors.scss';
+
+:root {
+  --green10: #{$ibm-colors__green-10};
+  --green20: #{$ibm-colors__green-20};
+  --green30: #{$ibm-colors__green-30};
+  --green40: #{$ibm-colors__green-40};
+  --green50: #{$ibm-colors__green-50}; // brand-01}
+  --green60: #{$ibm-colors__green-60};
+  --green70: #{$ibm-colors__green-70};
+  --green80: #{$ibm-colors__green-80};
+  --green90: #{$ibm-colors__green-90};
+}
+
+$brand-01: $ibm-colors__green-50;
+$brand-02: $ibm-colors__green-40;
+$brand-03: $ibm-colors__teal-20;
+$inverse-01: $ibm-colors__white;
+$inverse-02: #272d33;
+$ui-01: $ibm-colors__white;
+$ui-02: #f4f7fb;
+$ui-03: $ibm-colors__warm-gray-10;
+$ui-04: #8897a2;
+$ui-05: $ibm-colors__cool-gray-60;
+$text-01: $ibm-colors__green-60;
+$text-02: $ibm-colors__cool-gray-60;
+$text-03: #cdd1d4;
+$field-01: #f4f7fb;
+$field-02: $ibm-colors__white;
+$support-01: #e0182d;
+$support-02: $ibm-colors__green-40;
+$support-03: $ibm-colors__yellow-20;
+$support-04: $ibm-colors__green-30;
+$nav-01: $ibm-colors__cool-gray-10;
+$nav-02: $ibm-colors__green-60;
+$nav-03: $ibm-colors__purple-30;
+$nav-04: $ibm-colors__purple-60;
+$nav-05: $ibm-colors__teal-40;
+$nav-06: $ibm-colors__teal-50;
+$nav-07: $ibm-colors__green-30;
+$nav-08: $ibm-colors__green-50;
+
+$hover-primary: darken($brand-01, 10%);
+$hover-primary-text: darken($brand-01, 15%);
+$hover-danger: darken($support-01, 10%);
+$hover-secondary: $brand-01;
+$hover-row: rgba($brand-02, 0.1);
+
+@import '~carbon-components/scss/globals/scss/styles.scss';

@@ -1,16 +1,24 @@
-import React from 'react';
-import { graphql } from 'gatsby';
+import React from 'react'
+import { Link } from 'gatsby'
 
-import Layout from '../components/Layout';
+import Layout from '../components/layout'
+import SEO from '../components/seo'
+import { Button } from 'carbon-components-react'
 
-export default function Index({ data: { site } }) {
-  return <Layout site={site}>Landing Page</Layout>;
-}
+const IndexPage = () => (
+  <Layout>
+    <SEO
+      description="Gatsby Carbon Starter"
+      title="Home"
+      keywords={[`gatsby`, `application`, `react`, `carbon`]}
+    />
+    <Button style={{ margin: '1rem' }}>Hi from Carbon</Button>
+    <p>
+      Welcome to Gatsby with Carbon. <br />
+      Now go build something great!
+    </p>
+    <Link to="/page-2/">Go to page 2</Link>
+  </Layout>
+)
 
-export const pageQuery = graphql`
-  query {
-    site {
-      ...site
-    }
-  }
-`;
+export default IndexPage
