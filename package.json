@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-starter-carbon",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby and Carbon",
   "version": "0.1.0",
-  "author": "Vince Picone",
+  "author": "FED@IBM",
   "dependencies": {
     "@carbon/themes": "0.0.1-alpha.27",
     "carbon-components": "^9.66.3",
